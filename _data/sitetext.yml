@@ -12,7 +12,7 @@
 de: &DEFAULT_DE
   header:
     title: Willkommen zum Reiseführer Mathematik!
-    text: Materialien und Lehrkonzept für den Matheunterricht
+    text: Es geht auch einfach
     button: Über das Projekt
     buttonlink: "#project"
 
