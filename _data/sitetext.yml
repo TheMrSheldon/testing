@@ -9,7 +9,7 @@
 
 # Deutsch (default)
 # -----------------
-en: &DEFAULT_DE
+de: &DEFAULT_DE
   header:
     title: Willkommen zum Reiseführer Mathematik!
     text: Materialien und Lehrkonzept für den Matheunterricht
