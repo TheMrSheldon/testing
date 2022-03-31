@@ -1,0 +1,29 @@
+<!-- Projekt -->
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].project.section | default: "Projekt" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].project.title | default: "Projekt" }}</h2>
+          {% if site.data.sitetext[site.locale].project.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].project.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  {% for project in site.data.sitetext[site.locale].project.list %}
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ project.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ project.title | markdownify }}</h4>
+          {% if project.desc %}<div class="text-muted">{{ project.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+<!-- End Projekt -->
