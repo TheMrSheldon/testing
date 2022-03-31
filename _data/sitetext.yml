@@ -18,21 +18,21 @@ de: &DEFAULT_DE
 
   project:
     title: "Über das Projekt"
-    text: "Der Reiseführer Mathematik umfasse sowohl ein Flipped-Classroom Lehrkonzept als auch dafür benötigte Materialien."
+    text: "Der Reiseführer Mathematik umfasst sowohl ein Flipped-Classroom Lehrkonzept als auch dafür benötigte Materialien."
     section: project
     list:
       - title: "Lehrkonzept"
         desc: "Flipped Classroom für den Mathematikunterricht"
         icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
       - title: "Lehrbuch"
-        desc: "Ein einfaches aber herausforderndes Lehrbuch, dass diejenigen fördert, denen Mathematik leicht fällt und diejenigen unterstützt, denen sie schwer fällt."
+        desc: "Ein einfaches aber herausforderndes Lehrbuch, das diejenigen fördert, denen Mathematik leicht fällt und diejenigen unterstützt, denen sie schwer fällt."
         icon: fas fa-book
       - title: "Übungsmaterial"
         desc: "Erst durch die richtige Übung kann der Stoff effektiv verstanden werden."
-        icon: fab fa-pencil-alt
+        icon: fas fa-pencil-alt
       - title: "Lehrvideos"
         desc: "Durch unsere Lehrvideos bekommen Schüler ein konkreteres Bild von der sonst sehr abstrakten Mathematik."
-        icon: fab fa-play-circle
+        icon: fas fa-play-circle
 
 #  portfolio:
 #    title: "Portfolio"
