@@ -3,8 +3,7 @@ layout: page
 title: "{{ page.chapter }} &ndash; {{ page.topic }}"
 ---
 <!-- Video -->
-<h3 class="section-subheading text-muted">{{ page.chapter }} &ndash; {{ page.topic }}</h3>
-<div class="video-container" id="video-container">
+<div class="video-container" id="video-container" style="margin-top: 20pt;">
   <div class="playback-animation" id="playback-animation">
     <svg class="playback-icons">
       <use class="hidden" href="#play-icon"></use>
@@ -106,6 +105,7 @@ title: "{{ page.chapter }} &ndash; {{ page.topic }}"
 
   <script src="{{ site.url }}{{ site.baseurl }}assets/js/videoplayer.js"></script>
 
+<h3 class="section-subheading text-muted" style="margin: 20pt 0pt 5pt 0pt;">{{ page.chapter }} &ndash; {{ page.topic }}</h3>
 <div class="description">
   {{ content }}
 </div>
