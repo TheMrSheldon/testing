@@ -1,0 +1,34 @@
+.video-prev {
+    width: 200pt;
+    height: 150pt;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5pt;
+    position: relative;
+	
+	flex: 0 0 200pt;
+    max-width: 200pt;
+}
+
+.video-prev:hover .video-synopsis {
+	height: 100%;
+}
+
+.video-synopsis {
+    background-color: #ffaa33;
+    padding: 10pt;
+    position: absolute;
+    bottom: 0pt;
+    text-align: left;
+    box-shadow: #ffaa33 0pt -1pt 10pt 0px;
+    border-radius: 5pt 5pt 0pt 0pt;
+}
+
+.video-synopsis > h1 {
+    font-size: 15pt;
+}
+
+.video-synopsis > p {
+    line-height: 1;
+    margin: 0pt;
+}
