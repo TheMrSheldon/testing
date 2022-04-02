@@ -16,10 +16,12 @@ title: Videos
       </div>
 	  
       <div class="row text-center">
-	      {% for video in site.videos %}
-          <div class="col-md-4">
-            <h4 class="service-heading">{{ video.chapter &ndash; video.topic | markdownify }}</h4>
-            {% if video.synopsis %}<div class="text-muted">{{ video.synopsis | markdownify }}</div>{% endif %}
+      	{% for video in site.videos %}
+          <div class="video-prev" style="background-image: url({{ video.image }})">
+              <div class="video-synopsis">
+                  <h1>{{ video.topic | markdownify }}</h1>
+                  <p>{{ video.synopsis | markdownify }}</p>
+              </div>
           </div>
 	      {% endfor %}
       </div>
