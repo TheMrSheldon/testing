@@ -2,8 +2,6 @@
 layout: page
 title: Videos
 ---
-<link href="videos.css" rel="stylesheet" />
-
 <!-- Videos -->
   <section class="page-section" id="videos">
     <div class="container">
