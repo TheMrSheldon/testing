@@ -31,7 +31,7 @@ locale: "de-DE" # See available languages in _data/sitetext.yml
 #  google: #Google Analytics tracking code here
 
 collections:
-  videos
+  videos:
 #  portfolio:
 
 markdown: kramdown
