@@ -17,7 +17,7 @@ title: Videos
 	  
       <div class="row text-center">
       	{% for video in site.videos %}
-          <a href="{{ video.url }}" style="all: unset; cursor: pointer;">
+          <a href="{{ site.baseurl }}/{{ video.url }}" style="all: unset; cursor: pointer;">
             <div class="video-prev" style="background-image: url({{ video.image }})">
                 <div class="video-synopsis">
                     <h1>{{ video.topic | markdownify }}</h1>
