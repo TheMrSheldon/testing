@@ -103,7 +103,7 @@ title: "{{ page.chapter }} &ndash; {{ page.topic }}"
     </defs>
   </svg>
 
-  <script src="{{ site.url }}{{ site.baseurl }}assets/js/videoplayer.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/videoplayer.js"></script>
 
 <h3 class="section-subheading text-muted" style="margin: 20pt 0pt 5pt 0pt;">{{ page.chapter }} &ndash; {{ page.topic }}</h3>
 <div class="description">
