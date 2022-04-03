@@ -1,14 +1,31 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+<div align="center">
+  <a href="https://github.com/Reisefuhrer-Mathematik/Reisefuehrer-Mathematik">
+    <img src="images/icon.svg" alt="Logo" width="80" height="80">
+  </a>
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the [![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+  <h3 align="center">Website des Reiseführer Mathematik</h3>
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+  <p align="center">
+    Der Webauftritt des Reiseführer Mathematik.
+    <br />
+    <a href="https://github.com/Reisefuhrer-Mathematik/Reisefuehrer-Mathematik"><strong>Zum Reiseführer Mathematik »</strong></a>
+    <br />
+    <br />
+    <a href="https://Reisefuhrer-Mathematik.github.io/">Website</a>
+    &#8226;
+    <a href="https://github.com/Reisefuhrer-Mathematik/Reisefuehrer-Mathematik/discussions">Vorschläge machen</a>
+  </p>
+</div>
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+# Reiseführer Mathematik
+Der "Reiseführer Mathematik" ist ein Flipped Classroom Konzept und zugehörige Materialien für die Mathematik.
+Ziel des Projektes ist es, ein Konzept auszuarbeiten, mit dem es Spaß macht, Mathematik zu lernen und zu verstehen.
+Mit Hilfe von Einschüben weiterführenden Wissens soll zudem tiefer gehendes Interesse an dem Stoff gefördert werden.
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+Das Projekt gliedert sich insgesamt grob auf in ein Lehrbuch, das zumindest den Schulstoff umfassen und anschaulich erläutern soll,
+Vorbereitungsblätter, die darauf ausgelegt sind, während des Lesens des Buches bearbeitet zu werden, damit der Leser den Stoff direkt
+vertieft, und Aufgabenblöcke, die, nachdem entsprechende Abschnitte im Buch gelesen wurden, diese weiter vertiefen sollen.
+
+# Credits
+ - The website is heavily based off of the [agency jekyll theme](https://github.com/raviriley/agency-jekyll-theme)
+ - The video player is a modified version of [this custom html5 player](https://github.com/Freshman-tech/custom-html5-video)
