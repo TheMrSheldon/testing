@@ -2,6 +2,13 @@
 layout: page
 title: "{{ page.chapter }} &ndash; {{ page.topic }}"
 ---
+<!-- Video Breadcrumbs -->
+<ul class="breadcrumbs">
+  <li><a href="{{ site.baseurl }}/videos">Videos<a></li>
+  <li><a href="{{ site.baseurl }}/videos/{{ page.chaper }}">Chapter</a></li>
+  <li>Topic</li>
+</ul>
+<!-- End Video Breadcrumbs -->
 <!-- Video -->
 <div class="video-container" id="video-container" style="margin-top: 20pt;">
   <div class="playback-animation" id="playback-animation">
