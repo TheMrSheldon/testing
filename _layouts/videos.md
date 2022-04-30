@@ -5,8 +5,8 @@ title: "{{ page.chapter }} &ndash; {{ page.topic }}"
 <!-- Video Breadcrumbs -->
 <ul class="breadcrumbs">
   <li><a href="{{ site.baseurl }}/videos">Videos</a></li>
-  <li><a href="{{ site.baseurl }}/videos/{{ page.chaper }}">Chapter</a></li>
-  <li>Topic</li>
+  <li><a href="{{ site.baseurl }}/videos/{{ page.chaper }}">{{ page.chapter }}</a></li>
+  <li>{{ page.topic }}</li>
 </ul>
 <!-- End Video Breadcrumbs -->
 <!-- Video -->
