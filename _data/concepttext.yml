@@ -2,7 +2,8 @@ de: &DEFAULT_DE
   concept:
     title: Flipped Classroom
     text: "Klassische Lehre sieht in der Regel so aus, dass ein Lehrer versucht, einer größeren Gruppe von Schülern ein gewisses Thema zu erklären, das er in einem Tempo, das er selbst wählt, präsentiert. Beim Vermitteln von neuem Stoff ist es auf diese Weise nicht möglich, auf die Lerngeschwindigkeit aller Schüler gleichzeitig einzugehen. Wählt man ein langsameres Tempo, damit alle mitkommen, unterfordert man zwangsläufig einige Schüler. Andersrum gilt das natürlich genauso.<br/>
-    Nicht immer verstehen alle Schüler direkt auf Anhieb, was der Lehrer versucht hat, ihnen zu erklären. Nach dem Unterricht wäre es also nötig, dass sie die Möglichkeit haben, den Stoff noch einmal nachzuarbeiten und zu verstehen. Stattdessen gibt es in der Regel vor allem Aufgaben mit nach Hause. Diese helfen nicht beim Verstehen des Stoffs, da sie keine Erklärung beinhalten."
+    Nicht immer verstehen alle Schüler direkt auf Anhieb, was der Lehrer versucht hat, ihnen zu erklären. Nach dem Unterricht wäre es also nötig, dass sie die Möglichkeit haben, den Stoff noch einmal nachzuarbeiten und zu verstehen. Stattdessen gibt es in der Regel vor allem Aufgaben mit nach Hause. Diese helfen nicht beim Verstehen des Stoffs, da sie keine Erklärung beinhalten.<br/>
+    Wir möchten den Unterricht deshalb mit dem Konzept *Flipped Classroom* umdrehen und das Lernen neuer Inhalte nach Hause verschieben, wenn jeder in seinem eigenen Tempo lernen kann. Unser Unterrichtsmodell sieht in idealisierter Form so aus:"
     conclusion: "XX"
     list:
       - title: Phase 1
@@ -20,28 +21,35 @@ de: &DEFAULT_DE
   materials:
     - title: Lehrbuch
       section: book
+      text: "Teil unseres Projekts ist ein einfaches, aber herausforderndes Lehrbuch, das diejenigen fördert, denen Mathematik leicht fällt und diejenigen unterstützt, denen sie schwer fällt.<br/>
+      Inhaltlich enthält das Buch alles, was für den Mathematikunterricht an weiterführenden Schulen (insbesondere Gymnasien) wichtig ist. An manchen Stellen gehen nehmen wir uns deutlich mehr Zeit für das **Erklären von Grundlagen** als das normalerweise im Kerncurriculum der Fall ist. Wir **motivieren die präsentierten Definitionen** und legen viel Wert darauf, Zusammenhänge durch **lückenlose Herleitungen** zu vermitteln, damit es besser möglich ist, die Mathematik zu verstehen statt sie auswendig zu lernen. Gleichzeitig verzichten wir an einigen Stellen auf unnötig formale Definitionen und Herleitungen, um die meisten Schüler nicht zu überfordern. Dieser Spagat gelingt uns mithilfe der folgenden Komponenten.<br/>"
       contents:
-        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        - image: images/nutshell.jpg
-        - image: images/advanced.jpg
-        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        - text: "Eine gute Erklärung kommt nicht ohne gute **Beispiele** aus. Wir erklären daher alle vermittelten Inhalte konsequent an Beispielen und legen Wert darauf, durch Beispiele ein intuivies Verständnis zu erzeugen, *bevor* wir die entsprechenden Definitionen und Sätze präsentieren.<br/>
+        Falls möglich, setzen wir dabei auf **Analogien zu alltäglichen Phänomenen**, die den Schülern bereits bekannt sind. Auf diese Weise können wir das **Alltagswissen** der Schüler nutzen, um sie auf Zusammenhänge hinzuweisen, die sie bereits kennen. Die darauffolgenden Definitionen entstehen dann vollkommen natürlich."
+          image: images/example.jpg
+        - text: "Es ist deutlich einfacher, sich eine Definition zu merken, wenn man sich **visuell** etwas darunter vorstellen kann und somit ein intuitives Verständnis erlangen kann.<br/>
+        Aus diesem Grund untermauern wir die zentralen **Definitionen mit Bildern**, die sich eignen, um die Definitionen im Kopf zusammen mit diesen Bildern abzuspeichern. Die Definitionen werden auf diese Weise greifbarer und können im Kopf besser geordnet werden."
+          image: images/definition.jpg
+        - text: "Nach dem Erlernen eines neuen Themas ist es hilfreich, einen Überblick über das gerade Gelernte zu bekommen. Wir fassen alle Themenabschnitte im Buch mit einer kurzen **Zusammenfassungsbox** zusammen, die außerdem auch verwendet werden kann, wenn das Thema später noch einmal nachgelesen werden soll. Auf diese Weise ist es nicht nötig, die wichtigen Definitionen in den ausführlichen Erklärungen herauszusuchen."
+          image: images/nutshell.jpg
+        - text: "Unser Buch enthält violett hinterlegte Bereiche mit Inhalten, die **über das normale Schulwissen hinausgehen**. Diese Bereiche richten sich an Schüler, die keine Probleme mit dem Standardstoff haben und vertiefende Einblicke in das gerade behandelte Thema erhalten möchten. Begabte Schüler haben hier die Möglichkeit, eine besondere Herausforderung zu bekommen, indem sie versuchen, auch diese komplizierteren Themen zu verstehen. Sie bekommen außerdem eine Vorstellung davon, wie sich die Themen in einen größeren Kontext einordnen. Diese weiterführenden Themen können später mit herausforderneden Knobelaufgaben vertieft werden.<br/>
+        Auf diese Weise können wir Herleitungen auch dann lückenlos präsentieren, wenn sie relativ kompliziert und für die meisten Schüler zu schwierig sind."
+          image: images/advanced.jpg
     - title: Übungsmaterial
       section: exercise
       contents:
         - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        - image: "images/nutshell.jpg"
+          image: "images/nutshell.jpg"
     - title: Lehrvideos
       section: videos
       contents:
         - text: "Videobeschreibung"
-        - image: "images/nutshell.jpg"
+          image: "images/nutshell.jpg"
     - title: Individuelles Lernen
       section: individual-learning
       contents:
         - text: "Videobeschreibung"
-        - image: "images/nutshell.jpg"
+          image: "images/nutshell.jpg"
 
 de-DE:
   <<: *DEFAULT_DE

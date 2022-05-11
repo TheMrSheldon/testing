@@ -25,17 +25,17 @@ de: &DEFAULT_DE
         desc: "Um neue Themen zu verstehen, braucht es gute Erklärungen. Wir erklären den Schulstoff einfach, verständlich und anhand vieler Beispiele."
         icon: fas fa-book
         button: Mehr erfahren
-        buttonlink: 'concept'
+        buttonlink: 'concept#book'
       - title: "Übungsmaterial"
         desc: "Erst durch die richtige Übung kann der Stoff effektiv verstanden werden. Mit genau auf unsere Erklärungen abgestimmten Übungsaufgaben erreichen wir einen optimalen Lernerfolg."
         icon: fas fa-pencil-alt
         button: Mehr erfahren
-        buttonlink: 'concept'
+        buttonlink: 'concept#exercise'
       - title: "Lehrvideos"
         desc: "Videos eignen sich hervorragend, neuen Stoff anschaulich und einprägsam zu erklären. Mit kurzen, auf das Buch abgestimmten Videos vereinfachen wir das selbstständige Lernen."
         icon: fas fa-play-circle
         button: Mehr erfahren
-        buttonlink: 'concept'
+        buttonlink: 'concept#videos'
       - title: "Flipped Classroom"
         desc: "Moderne Medien erlauben uns, den veralteten Frontalunterricht zu ersetzen und damit seine Probleme zu beseitigen. Dafür drehen wir den Unterricht um."
         icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
@@ -45,7 +45,7 @@ de: &DEFAULT_DE
         desc: "Nicht alle Schüler lernen im gleichen Tempo. Unsere Materialien unterstützen langsamere Schüler ebenso wie sie schnellere Schüler herausfordern."
         icon: fas fa-user #find more at https://fontawesome.com/icons
         button: Mehr erfahren
-        buttonlink: 'concept'
+        buttonlink: 'concept#individual-learning'
 
 #  portfolio:
 #    title: "Portfolio"
