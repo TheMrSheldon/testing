@@ -20,6 +20,11 @@
           </span>
           <h4 class="service-heading">{{ project.title | markdownify }}</h4>
           {% if project.desc %}<div class="text-muted">{{ project.desc | markdownify }}</div>{% endif %}
+          {% if project.button %}
+          <div class="text-muted" style="margin-bottom: 40px; margin-top: -5px">
+            <a class="font-weight-bold js-scroll-trigger" href="{{ project.buttonlink }}">{{ project.button }}</a>
+          </div>
+          {% endif %}
         </div>
 	  {% endfor %}
       </div>

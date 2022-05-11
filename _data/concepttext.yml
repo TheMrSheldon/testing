@@ -1,0 +1,47 @@
+de: &DEFAULT_DE
+  concept:
+    title: Flipped Classroom
+    text: "Klassische Lehre sieht in der Regel so aus, dass ein Lehrer versucht, einer größeren Gruppe von Schülern ein gewisses Thema zu erklären, das er in einem Tempo, das er selbst wählt, präsentiert. Beim Vermitteln von neuem Stoff ist es auf diese Weise nicht möglich, auf die Lerngeschwindigkeit aller Schüler gleichzeitig einzugehen. Wählt man ein langsameres Tempo, damit alle mitkommen, unterfordert man zwangsläufig einige Schüler. Andersrum gilt das natürlich genauso.<br/>
+    Nicht immer verstehen alle Schüler direkt auf Anhieb, was der Lehrer versucht hat, ihnen zu erklären. Nach dem Unterricht wäre es also nötig, dass sie die Möglichkeit haben, den Stoff noch einmal nachzuarbeiten und zu verstehen. Stattdessen gibt es in der Regel vor allem Aufgaben mit nach Hause. Diese helfen nicht beim Verstehen des Stoffs, da sie keine Erklärung beinhalten."
+    conclusion: "XX"
+    list:
+      - title: Phase 1
+        desc: Vorbereiten
+        text: "Die Schüler erhalten ein Arbeitsblatt, mit dessen Hilfe sie sich zu Hause ein neues Thema erarbeiten. Dazu stehen ihnen unsere **Lehrvideos** und unser **Buch** zur Verfügung."
+        icon: fas fa-book-reader
+      - title: Phase 2
+        desc: Fragen
+        text: "Zu Beginn des Unterrichts wird das Arbeitsblatt besprochen und Fragen, die entstanden sind, werden gesammelt und geklärt. Als Ergänzung kann ein kleines Spiel oder Quiz vorbereitet werden, mit dem das Thema gemeinsam geübt wird."
+        icon: fas fa-users
+      - title: Phase 3
+        desc: Üben
+        text: "Im weiteren Verlauf des Unterrichts werden thematisch passende Aufgaben aus unserem **Aufgabenblock** gerechnet. Die Schüler dürfen dabei zusammenarbeiten, sich gegenseitig helfen und können den Lehrer fragen."
+        icon: fas fa-users-cog
+  materials:
+    - title: Lehrbuch
+      section: book
+      contents:
+        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        - image: images/nutshell.jpg
+        - image: images/advanced.jpg
+        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    - title: Übungsmaterial
+      section: exercise
+      contents:
+        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        - image: "images/nutshell.jpg"
+    - title: Lehrvideos
+      section: videos
+      contents:
+        - text: "Videobeschreibung"
+        - image: "images/nutshell.jpg"
+    - title: Individuelles Lernen
+      section: individual-learning
+      contents:
+        - text: "Videobeschreibung"
+        - image: "images/nutshell.jpg"
+
+de-DE:
+  <<: *DEFAULT_DE

@@ -1,0 +1,56 @@
+<!-- Concept -->
+<section class="page-section" id="{{ site.data.concepttext[site.locale].concept.section | default: "Konzept" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading text-uppercase">{{ site.data.concepttext[site.locale].concept.title | default: "Konzept" }}</h3>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-lg-12 text-justify">
+          <p class="text-muted">{{ site.data.concepttext[site.locale].concept.text | markdownify }}</p>
+        </div>
+      </div>
+
+      <div class="row text-center">
+	  {% for phase in site.data.concepttext[site.locale].concept.list %}
+        <div class="col-md-4">
+          <div class="card text-white bg-info text-center" style="min-height: 460px">
+            <div class="card-header">{{ phase.title }}</div>
+            <div class="card-body">
+              <span class="fa-stack fa-4x">
+                <i class="{{ phase.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 class="service-heading">{{ phase.desc }}</h4>
+              {% if phase.desc %}<div>{{ phase.text | markdownify }}</div>{% endif %}
+            </div>
+          </div>
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+<!-- END Concept -->
+
+<!-- Materials -->
+{% for material in site.data.concepttext[site.locale].materials %}
+<section class="page-section" id="{{ material.section | default: "Komponente" }}">
+    <div class="container"> 
+      <div class="row text-center">
+        <div class="col-lg-12 text-center">
+            <h3 class="section-heading text-uppercase">{{ material.title | default: "Komponente" }}</h3>
+          </div>
+      </div>
+      <div class="row text-justify">
+        {% for content in material.contents %}
+          <div class="col-md-6">
+            {% if content.text %}<p class="service-heading">{{ content.text | markdownify }}</p>{% endif %}
+            {% if content.image %}<img src="{{ content.image }}" width="100%" />{% endif %}
+          </div>
+        {% endfor %}
+      </div> 
+    </div>
+</section>
+{% endfor %}
+<!-- END Materials -->

@@ -24,28 +24,28 @@ de: &DEFAULT_DE
       - title: "Lehrbuch"
         desc: "Um neue Themen zu verstehen, braucht es gute Erklärungen. Wir erklären den Schulstoff einfach, verständlich und anhand vieler Beispiele."
         icon: fas fa-book
-#        button: Mehr erfahren
-#        buttonlink: '#project'
+        button: Mehr erfahren
+        buttonlink: 'concept'
       - title: "Übungsmaterial"
         desc: "Erst durch die richtige Übung kann der Stoff effektiv verstanden werden. Mit genau auf unsere Erklärungen abgestimmten Übungsaufgaben erreichen wir einen optimalen Lernerfolg."
         icon: fas fa-pencil-alt
-#        button: Mehr erfahren
-#        buttonlink: '#project'
+        button: Mehr erfahren
+        buttonlink: 'concept'
       - title: "Lehrvideos"
-        desc: "Videos eignen sich hervorragend, neuen Stoff kurz, anschaulich und einprägsam zu erklären. Mit kurzen, auf das Buch abgestimmten Videos vereinfachen wir das selbstständige Lernen."
+        desc: "Videos eignen sich hervorragend, neuen Stoff anschaulich und einprägsam zu erklären. Mit kurzen, auf das Buch abgestimmten Videos vereinfachen wir das selbstständige Lernen."
         icon: fas fa-play-circle
-#        button: Mehr erfahren
-#        buttonlink: '#project'
+        button: Mehr erfahren
+        buttonlink: 'concept'
       - title: "Flipped Classroom"
         desc: "Moderne Medien erlauben uns, den veralteten Frontalunterricht zu ersetzen und damit seine Probleme zu beseitigen. Dafür drehen wir den Unterricht um."
         icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
-#        button: Mehr erfahren
-#        buttonlink: '#project'
+        button: Mehr erfahren
+        buttonlink: 'concept'
       - title: "Individuelles Lernen"
         desc: "Nicht alle Schüler lernen im gleichen Tempo. Unsere Materialien unterstützen langsamere Schüler ebenso wie sie schnellere Schüler herausfordern."
-        icon: fas fa-arrows-down-to-people #find more at https://fontawesome.com/icons
-#        button: Mehr erfahren
-#        buttonlink: '#project'
+        icon: fas fa-user #find more at https://fontawesome.com/icons
+        button: Mehr erfahren
+        buttonlink: 'concept'
 
 #  portfolio:
 #    title: "Portfolio"
@@ -87,7 +87,7 @@ de: &DEFAULT_DE
   about:
     title: "Unsere Vision"
     text: "Wir möchten, dass Schüler Mathematik so lernen und erleben können, wie sie ist: Als ein spannendes, logisches und faszinierendes Themengebiet, mit dessen Hilfe wir elegant und einfach unsere Welt verstehen können."
-    body: "Wir sind ein bundesweites Team aus Autoren, Illustratoren, Lehrern und Schülern, die zusammenarbeiten, damit die Schulmathematik ein Level-Up erhält. Wir sind überzeugt davon, dass jeder das Zeug dazu hat, Mathematik zu verstehen. Dafür muss sie nur richtig erklärt werden. Und wir erstellen das passende Lehrmaterial dafür."
+    body: "Wir sind ein bundesweites Team aus Autoren, Illustratoren, Lehrern und Schülern, die zusammenarbeiten, damit die Schulmathematik ein Level Up erhält. Wir sind überzeugt davon, dass jeder das Zeug dazu hat, Mathematik zu verstehen. Dafür muss sie nur richtig erklärt werden."
     section: about
 
 #  clients:
