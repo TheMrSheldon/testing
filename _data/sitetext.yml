@@ -18,21 +18,34 @@ de: &DEFAULT_DE
 
   project:
     title: "Über das Projekt"
-    text: "Der Reiseführer Mathematik umfasst sowohl ein Flipped-Classroom Lehrkonzept als auch dafür benötigte Materialien."
+    text: "Der Reiseführer Mathematik ist ein Flipped Classroom-Konzept für den Mathematik-Unterricht an Schulen. Wir entwickeln Lehr- und Übungsmaterial, mit dem der Stoff effizient erlernt, geübt und vertieft werden kann - von jedem Schüler in seinem eigenen Tempo."
     section: project
     list:
-      - title: "Lehrkonzept"
-        desc: "Flipped Classroom für den Mathematikunterricht"
-        icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
       - title: "Lehrbuch"
-        desc: "Ein einfaches aber herausforderndes Lehrbuch, das diejenigen fördert, denen Mathematik leicht fällt und diejenigen unterstützt, denen sie schwer fällt."
+        desc: "Um neue Themen zu verstehen, braucht es gute Erklärungen. Wir erklären den Schulstoff einfach, verständlich und anhand vieler Beispiele."
         icon: fas fa-book
+        button: Mehr erfahren
+        buttonlink: '#project'
       - title: "Übungsmaterial"
-        desc: "Erst durch die richtige Übung kann der Stoff effektiv verstanden werden."
+        desc: "Erst durch die richtige Übung kann der Stoff effektiv verstanden werden. Mit genau auf unsere Erklärungen abgestimmten Übungsaufgaben erreichen wir einen optimalen Lernerfolg."
         icon: fas fa-pencil-alt
+        button: Mehr erfahren
+        buttonlink: '#project'
       - title: "Lehrvideos"
-        desc: "Durch unsere Lehrvideos bekommen Schüler ein konkreteres Bild von der sonst sehr abstrakten Mathematik."
+        desc: "Videos eignen sich hervorragend, neuen Stoff kurz, anschaulich und einprägsam zu erklären. Mit kurzen, auf das Buch abgestimmten Videos vereinfachen wir das selbstständige Lernen."
         icon: fas fa-play-circle
+        button: Mehr erfahren
+        buttonlink: '#project'
+      - title: "Flipped Classroom"
+        desc: "Moderne Medien erlauben uns, den veralteten Frontalunterricht zu ersetzen und damit seine Probleme zu beseitigen. Dafür drehen wir den Unterricht um."
+        icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
+        button: Mehr erfahren
+        buttonlink: '#project'
+      - title: "Individuelles Lernen"
+        desc: "Nicht alle Schüler lernen im gleichen Tempo. Unsere Materialien unterstützen langsamere Schüler ebenso wie sie schnellere Schüler herausfordern."
+        icon: fas fa-arrows-down-to-people #find more at https://fontawesome.com/icons
+        button: Mehr erfahren
+        buttonlink: '#project'
 
 #  portfolio:
 #    title: "Portfolio"
@@ -72,9 +85,9 @@ de: &DEFAULT_DE
 #    end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "Wer sind wir?"
-    text: "Mathematik ist ein eindrucksvolles Fach, das uns ein Werkzeug bietet, abstrakte Konzept zu beschreiben und weiter zu denken. Wir möchten Schülern helfen, Mathematik nicht als unnütz oder schwierig zu verstehen."
-    body: "TODO: hier kommt ein toller Text über uns hin"
+    title: "Unsere Vision"
+    text: "Wir möchten, dass Schüler Mathematik so lernen und erleben können, wie sie ist: Als ein spannendes, logisches und faszinierendes Themengebiet, mit dessen Hilfe wir elegant und einfach unsere Welt verstehen können."
+    body: "Wir sind ein bundesweites Team aus Autoren, Illustratoren, Lehrern und Schülern, die zusammenarbeiten, damit die Schulmathematik ein Level-Up erhält. Wir sind überzeugt davon, dass jeder das Zeug dazu hat, Mathematik zu verstehen. Dafür muss sie nur richtig erklärt werden. Und wir erstellen das passende Lehrmaterial dafür."
     section: about
 
 #  clients:
