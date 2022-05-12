@@ -36,7 +36,7 @@ locale: "de-DE" # See available languages in _data/sitetext.yml
 collections:
   videos:
     output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:path/:slug
 
 defaults:
   - scope:
