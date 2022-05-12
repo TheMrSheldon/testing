@@ -35,7 +35,11 @@
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
   <link href="{{ site.baseurl }}/assets/css/agency.css" rel="stylesheet" />
-
+  
+  <!-- Load KaTeX -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+  
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
   <style>
