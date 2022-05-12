@@ -46,8 +46,6 @@ defaults:
       layout: "videos"
 
 markdown: kramdown
-kramdown:
-   math_engine: mathjax
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
