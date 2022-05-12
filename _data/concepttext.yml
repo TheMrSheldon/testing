@@ -5,10 +5,11 @@ de: &DEFAULT_DE
     Nicht immer verstehen alle Schüler direkt auf Anhieb, was der Lehrer versucht hat, ihnen zu erklären. Nach dem Unterricht wäre es also nötig, dass sie die Möglichkeit haben, den Stoff noch einmal nachzuarbeiten und zu verstehen. Stattdessen gibt es in der Regel vor allem Aufgaben mit nach Hause. Diese helfen nicht beim Verstehen des Stoffs, da sie keine Erklärung beinhalten.<br/>
     Wir möchten den Unterricht deshalb mit dem Konzept *Flipped Classroom* umdrehen und das Lernen neuer Inhalte nach Hause verschieben, wenn jeder in seinem eigenen Tempo lernen kann. Unser Unterrichtsmodell sieht in idealisierter Form so aus:"
     conclusion: "XX"
+    section: flipped-classroom
     list:
       - title: Phase 1
         desc: Vorbereiten
-        text: "Die Schüler erhalten ein Arbeitsblatt, mit dessen Hilfe sie sich zu Hause ein neues Thema erarbeiten. Dazu stehen ihnen unsere **Lehrvideos** und unser **Buch** zur Verfügung."
+        text: "Die Schüler erhalten ein **Arbeitsblatt**, mit dessen Hilfe sie sich zu Hause ein neues Thema erarbeiten. Dazu stehen ihnen unsere **Lehrvideos** und unser **Buch** zur Verfügung."
         icon: fas fa-book-reader
       - title: Phase 2
         desc: Fragen
@@ -22,34 +23,59 @@ de: &DEFAULT_DE
     - title: Lehrbuch
       section: book
       text: "Teil unseres Projekts ist ein einfaches, aber herausforderndes Lehrbuch, das diejenigen fördert, denen Mathematik leicht fällt und diejenigen unterstützt, denen sie schwer fällt.<br/>
-      Inhaltlich enthält das Buch alles, was für den Mathematikunterricht an weiterführenden Schulen (insbesondere Gymnasien) wichtig ist. An manchen Stellen gehen nehmen wir uns deutlich mehr Zeit für das **Erklären von Grundlagen** als das normalerweise im Kerncurriculum der Fall ist. Wir **motivieren die präsentierten Definitionen** und legen viel Wert darauf, Zusammenhänge durch **lückenlose Herleitungen** zu vermitteln, damit es besser möglich ist, die Mathematik zu verstehen statt sie auswendig zu lernen. Gleichzeitig verzichten wir an einigen Stellen auf unnötig formale Definitionen und Herleitungen, um die meisten Schüler nicht zu überfordern. Dieser Spagat gelingt uns mithilfe der folgenden Komponenten.<br/>"
+      Inhaltlich enthält das Buch alles, was für den Mathematikunterricht an weiterführenden Schulen (insbesondere Gymnasien) wichtig ist. An manchen Stellen nehmen wir uns deutlich mehr Zeit für das **Erklären von Grundlagen** als das normalerweise im Kerncurriculum vorgesehen ist. Wir **motivieren die präsentierten Definitionen** und legen viel Wert darauf, Zusammenhänge durch **lückenlose Herleitungen** zu vermitteln, damit es besser möglich ist, die Mathematik zu verstehen statt sie auswendig zu lernen. Gleichzeitig verzichten wir an einigen Stellen auf unnötig formale Definitionen und Herleitungen, um nicht die meisten Schüler zu überfordern. Dieser Spagat gelingt uns mithilfe der folgenden Komponenten.<br/>"
       contents:
-        - text: "Eine gute Erklärung kommt nicht ohne gute **Beispiele** aus. Wir erklären daher alle vermittelten Inhalte konsequent an Beispielen und legen Wert darauf, durch Beispiele ein intuivies Verständnis zu erzeugen, *bevor* wir die entsprechenden Definitionen und Sätze präsentieren.<br/>
+        - text: "Eine gute Erklärung kommt nicht ohne gute **Beispiele** aus. Wir erklären daher alle vermittelten Inhalte konsequent an Beispielen und legen Wert darauf, durch Beispiele ein intuitives Verständnis zu erzeugen, *bevor* wir die entsprechenden Definitionen und Sätze präsentieren.<br/>
         Falls möglich, setzen wir dabei auf **Analogien zu alltäglichen Phänomenen**, die den Schülern bereits bekannt sind. Auf diese Weise können wir das **Alltagswissen** der Schüler nutzen, um sie auf Zusammenhänge hinzuweisen, die sie bereits kennen. Die darauffolgenden Definitionen entstehen dann vollkommen natürlich."
           image: images/example.jpg
         - text: "Es ist deutlich einfacher, sich eine Definition zu merken, wenn man sich **visuell** etwas darunter vorstellen kann und somit ein intuitives Verständnis erlangen kann.<br/>
-        Aus diesem Grund untermauern wir die zentralen **Definitionen mit Bildern**, die sich eignen, um die Definitionen im Kopf zusammen mit diesen Bildern abzuspeichern. Die Definitionen werden auf diese Weise greifbarer und können im Kopf besser geordnet werden."
+        Aus diesem Grund unterstützen wir die zentralen **Definitionen mit Bildern**, die sich eignen, um die Definitionen im Kopf zusammen mit diesen Bildern abzuspeichern. Die Definitionen werden auf diese Weise greifbarer und können im Kopf besser geordnet werden."
           image: images/definition.jpg
-        - text: "Nach dem Erlernen eines neuen Themas ist es hilfreich, einen Überblick über das gerade Gelernte zu bekommen. Wir fassen alle Themenabschnitte im Buch mit einer kurzen **Zusammenfassungsbox** zusammen, die außerdem auch verwendet werden kann, wenn das Thema später noch einmal nachgelesen werden soll. Auf diese Weise ist es nicht nötig, die wichtigen Definitionen in den ausführlichen Erklärungen herauszusuchen."
+        - text: "Nach dem Erlernen eines neuen Themas ist es hilfreich, einen Überblick über das gerade Gelernte zu bekommen. Wir fassen alle Themenabschnitte im Buch mit einer kurzen **Zusammenfassungsbox** zusammen, die außerdem auch verwendet werden kann, wenn das Thema später noch einmal nachgelesen werden soll. Dadurch ist es nicht nötig, die wichtigen Definitionen in den ausführlichen Erklärungen herauszusuchen."
           image: images/nutshell.jpg
-        - text: "Unser Buch enthält violett hinterlegte Bereiche mit Inhalten, die **über das normale Schulwissen hinausgehen**. Diese Bereiche richten sich an Schüler, die keine Probleme mit dem Standardstoff haben und vertiefende Einblicke in das gerade behandelte Thema erhalten möchten. Begabte Schüler haben hier die Möglichkeit, eine besondere Herausforderung zu bekommen, indem sie versuchen, auch diese komplizierteren Themen zu verstehen. Sie bekommen außerdem eine Vorstellung davon, wie sich die Themen in einen größeren Kontext einordnen. Diese weiterführenden Themen können später mit herausforderneden Knobelaufgaben vertieft werden.<br/>
+        - text: "Unser Buch enthält violett hinterlegte Bereiche mit Inhalten, die **über das normale Schulwissen hinausgehen**. Diese Bereiche richten sich an Schüler, die keine Probleme mit dem Standardstoff haben und vertiefende Einblicke in das gerade behandelte Thema erhalten möchten. Begabte Schüler haben hier die Möglichkeit, eine besondere Herausforderung zu bekommen, indem sie versuchen, auch diese komplizierteren Themen zu verstehen. Sie bekommen außerdem eine Vorstellung davon, wie sich die Themen in einen größeren Kontext einordnen. Diese weiterführenden Themen können später mit herausfordernden **Knobelaufgaben** vertieft werden.<br/>
         Auf diese Weise können wir Herleitungen auch dann lückenlos präsentieren, wenn sie relativ kompliziert und für die meisten Schüler zu schwierig sind."
           image: images/advanced.jpg
     - title: Übungsmaterial
       section: exercise
+      text: "Wir entwickeln genau auf unsere Erklärungen abgestimmtes Übungsmaterial, um durch *aktives Lernen* einen optimalen Lehrerfolg zu erreichen. Unser Übungsmaterial unterteilt sich in Arbeitsblätter, die beim selbstständigen Erarbeiten von neuem Stoff unterstützen (wir nennen sie **Vorbereitungsblätter**) und **Aufgabenblöcke** mit einer Sammlung von Aufgaben verschiedener Schwierigkeitsgrade, passend zu jedem Vorbereitungsblatt. Wir haben unsere Materialien wie folgt aufgebaut."
       contents:
-        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        - text: "Unsere **Vorbereitungsblätter** unterstützen die Schüler beim selbstständigen Erarbeiten von neuem Stoff. Vorbereitungsblätter enthalten **Verweise auf die relevanten Erklärungen**, die wir in unserem Buch und als Lehrvideo produziert haben. Die Schüler können ganz einfach einen QR-Code scannen, um zum passenden Video zu gelangen.<br/>
+        Alle wichtigen **Sätze und Definitionen** aus dem behandelten Themenblock sind auch auf unseren Vorbereitungsblättern zu finden. Damit erhalten die Schüler auch hier eine Zusammenfassung.<br/>
+        Zu jedem Thema gehört ein kleiner **Aufgabenteil** mit kurzen Verständnisfragen, die direkt auf dem Vorbereitungsblatt bearbeitet werden können. Die Aufgaben sind ohne großen Schreibaufwand lösbar und können direkt beim Schauen unserer Videos gelöst werden."
           image: "images/nutshell.jpg"
+        - text: "Wir haben zu jedem Kapitel einen **Aufgabenblock** erstellt, der speziell auf die jeweiligen Vorbereitungsblätter abgestimmte Aufgaben enthält. Die Aufgaben unterteilen sich in drei verschiedene Schwierigkeitsgrade.<br/>
+        Während **Einstiegsaufgaben** durch kleinschrittige Aufgabenstellungen und zusätzliche Hilfestellungen dabei helfen, ein Gefühl für ein neues Thema zu bekommen, richten sich unsere **Knobelaufgaben** speziell an diejenigen Schüler, die im Mathematikunterricht sonst unterfordert sind. Diese Aufgaben erfordern eigene Ideen und bauen oft auf dem weiterführenden Wissen aus unserem Buch auf."
+          image: images/nutshell.jpg
+        - text: "Um schwächere Schüler optimal zu unterstützen, enthalten die meisten unserer Aufgaben eine Reihe von **Hinweisen**, die verwendet werden können, wenn die Schüler nicht weiterkommen. Manchmal kann es bereits helfen, die Aufgabenstellung noch einmal in anderen Worten zu lesen. Wir geben aber auch inhaltliche Hilfestellungen, die in Richtung der korrekten Lösung führen, ohne sie direkt zu verraten.<br/>
+        Wir setzen außerdem auf ausführliche **Beispiellösungen**, die wir zu jedem Aufgabentypen erstellt haben. Diese werden darüber hinaus auch mit entsprechenden **Lösungsvideos** erklärt."
+          image: images/nutshell.jpg
+        - text: "Jeder unserer Aufgabenblöcke endet mit einem **Selbsttest**, der eine Sammlung von Aufgaben auf Klausurniveau enthält und in etwa 90 Minuten in Anspruch nehmen sollte. Mit deren Hilfe können Schüler sich effizient auf Klausuren vorbereiten und eigene Schwächen aufdecken.<br/>
+        Bei all diesen Aufgaben ist gekennzeichnet, welche Vorbereitungsblätter die Schüler dafür bearbeitet haben müssen."
+          image: images/nutshell.jpg
     - title: Lehrvideos
       section: videos
+      text: "Videos sind eine moderne Methode, um Stoff anschaulich und einprägsam zu erklären. Durch intelligent eingesetzte Animationen können Inhalte noch visueller erklärt werden als das durch Lehrer im Klassenzimmer möglich wäre. Zu jedem Thema, das wir in unserem Lehrbuch behandeln, gibt es deshalb auch ein kurzes (ca. 5 Minuten) Lehrvideo, das genau das gleiche Thema erklärt. Die Schüler somit die Wahl, ob sie unsere Erklärung lieber lesen oder als Video anschauen möchten.<br/>
+      Um den optimalen Lehrerfolg mit unseren Videos zu erzielen, haben wir sie direkt in unsere anderen Materialien integriert und übersichtlich geordnet."
       contents:
-        - text: "Videobeschreibung"
-          image: "images/nutshell.jpg"
+        - text: "In unseren **Vorbereitungsblättern** sind die zum Thema passenden Videos direkt über **QR-Codes** eingebunden. Die Videos können dadurch unkompliziert für die Bearbeitung der Vorbereitungsblätter und damit für das Erlernen von neuem Stoff verwendet werden."
+          image: images/video.jpg
+        - text: "Unsere Videos können leicht über die **Videobibliothek** auf dieser Webseite erreicht werden. Dort sind all unsere Lehrvideos nach dem Kapitel geordnet, zu dem sie gehören. Die Videos sind klar erkennbar den **Abschnitten unseres Buchs zugeordnet**.<br/>
+        All unsere Videos sind außerdem mit kurzen Beschreibungen und Inhaltsangaben versehen."
+          image: "images/video.jpg"
     - title: Individuelles Lernen
+      text: "Unser Lehrmaterial wurde entwickelt, um individuelles Lernen zu ermöglichen und zu fördern. Wir der ständigen Über- oder Unterforderung von Schülern ein Ende, indem wir den Schülern Möglichkeiten geben, das Niveau des gelernten Stoffs ihrem Lerntempo anzupassen.<br/>
+      Das individuelle Lernen fängt bereits zu Hause beim Bearbeiten unserer *Vorbereitungsblätter* an: Die Schüler entscheiden selbst, welche Erklärungen sie benötigen und welche sie überspringen können. Unser Buch ist so geschrieben, dass es immer möglich sein sollte, dem Text auch dann zu folgen, wenn die Beispiele übersprungen werden. Dadurch ermöglichen wir begabten Schülern Abkürzungen, sodass sie nicht mehr Zeit investieren müssen als nötig. Die gewonnene Zeit kann dann optional genutzt werden, um sich mit **optionalen und kompizierteren Zusatzinhalten** stärker in ein Thema zu vertiefen.<br/>
+      Diese Differenzierung setzt sich auch bei unseren Aufgaben fort: Während begabte Schüler sich mit sehr anspruchsvollen **Knobelaufgaben** herausfordern können, profitieren schwächere Schüler von zusätzlichen **Hinweisen** bei **Einstiegsaufgaben**, durch deren Hilfe die Aufgaben vereinfacht werden und von ausführlichen Beispiellösungen. Durch die Anzahl der Hinweise, die sie verwenden, können die Schüler also die Schwierigkeit der Aufgaben steuern und ihren Bedürfnissen anpassen.<br/>
+      Wir empfehlen, die **Schüler selbst entscheiden zu lassen**, welches Aufgabenniveau für sie angemessen ist. Dadurch rechnen nicht alle Schüler die gleichen, sondern jeweils an ihren Lernstand angepasste Aufgaben. Genau dafür sind die Aufgabensammlungen, die wir passend zu jedem Thema erstellt haben, ausgelegt."
       section: individual-learning
-      contents:
-        - text: "Videobeschreibung"
-          image: "images/nutshell.jpg"
+      list:
+      - title: Optionale Inhalte
+        icon: fas fa-book-medical
+      - title: Verschiedene Aufgabenniveaus
+        icon: fas fa-tasks
+      - title: Optionale Hinweise
+        icon: fas fa-question-circle
 
 de-DE:
   <<: *DEFAULT_DE

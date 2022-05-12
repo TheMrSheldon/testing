@@ -32,7 +32,7 @@ de: &DEFAULT_DE
         button: Mehr erfahren
         buttonlink: 'concept#exercise'
       - title: "Lehrvideos"
-        desc: "Videos eignen sich hervorragend, neuen Stoff anschaulich und einprägsam zu erklären. Mit kurzen, auf das Buch abgestimmten Videos vereinfachen wir das selbstständige Lernen."
+        desc: "Videos eignen sich hervorragend, um neuen Stoff anschaulich und einprägsam zu erklären. Mit kurzen, auf das Buch abgestimmten Videos vereinfachen wir das selbstständige Lernen."
         icon: fas fa-play-circle
         button: Mehr erfahren
         buttonlink: 'concept#videos'
@@ -40,12 +40,15 @@ de: &DEFAULT_DE
         desc: "Moderne Medien erlauben uns, den veralteten Frontalunterricht zu ersetzen und damit seine Probleme zu beseitigen. Dafür drehen wir den Unterricht um."
         icon: fas fa-chalkboard-teacher #find more at https://fontawesome.com/icons
         button: Mehr erfahren
-        buttonlink: 'concept'
+        buttonlink: 'concept#flipped-classroom'
       - title: "Individuelles Lernen"
         desc: "Nicht alle Schüler lernen im gleichen Tempo. Unsere Materialien unterstützen langsamere Schüler ebenso wie sie schnellere Schüler herausfordern."
         icon: fas fa-user #find more at https://fontawesome.com/icons
         button: Mehr erfahren
         buttonlink: 'concept#individual-learning'
+      - title: "Open Source"
+        desc: "Wir glauben an die Vorteile von frei verfügbaren Inhalten. Daher stellen wir unser Projekt kostenlos unter einer *Creative Commons*-Lizenz zur Verfügung."
+        icon: fas fa-code
 
 #  portfolio:
 #    title: "Portfolio"
@@ -86,8 +89,9 @@ de: &DEFAULT_DE
 
   about:
     title: "Unsere Vision"
-    text: "Wir möchten, dass Schüler Mathematik so lernen und erleben können, wie sie ist: Als ein spannendes, logisches und faszinierendes Themengebiet, mit dessen Hilfe wir elegant und einfach unsere Welt verstehen können."
-    body: "Wir sind ein bundesweites Team aus Autoren, Illustratoren, Lehrern und Schülern, die zusammenarbeiten, damit die Schulmathematik ein Level Up erhält. Wir sind überzeugt davon, dass jeder das Zeug dazu hat, Mathematik zu verstehen. Dafür muss sie nur richtig erklärt werden."
+    text: "Wir möchten, dass Schüler Mathematik so lernen und erleben können wie sie ist: Als ein spannendes, logisches und faszinierendes Themengebiet, mit dessen Hilfe wir elegant und einfach unsere Welt verstehen können."
+    body: "Wir sind ein bundesweites Team aus Autoren, Illustratoren, Lehrern und Schülern, die zusammenarbeiten, damit die Schulmathematik ein Level Up erhält. Wir sind überzeugt davon, dass jeder das Zeug dazu hat, Mathematik zu verstehen. Dafür muss sie nur richtig erklärt werden.<br/><br/>
+    Da wir ein wachsendes Team sind, würden wir uns freuen, wenn auch du **uns unterstützen** möchtest. Ob als Lehrer mit Feedback, als Illustrator oder als Autor: Deine Mitarbeit kann maßgeblich dazu beitragen, dieses Projekt voranzubringen. Wenn du mithelfen möchtest, nutze einfach das folgende Kontaktformular."
     section: about
 
 #  clients:
@@ -145,20 +149,18 @@ de: &DEFAULT_DE
 #          - url: https://linkedin.com
 #            icon: fab fa-linkedin-in
 
-#  contact:
-#    title: "Contact Us"
-#    text: "Lorem ipsum or call 123456789"
-#    section: contact
-#    name: "Name*"
-#    name-validation: "Please enter your name."
-#    email: "Email*"
-#    email-validation: "Please enter your email address."
-#    phone: "Phone Number"
-#    phone-validation: "Please enter your phone number."
-#    message: "Message*"
-#    message-validation: "Please enter a message."
-#    subject: "Contact Form Submission"
-#    submit: "Send Message"
+  contact:
+    title: "Kontakt"
+    text: "Du hast Fragen oder Anregungen zum Projekt? Oder du möchtest uns bei der weiteren Umsetzung unterstützen? Dann zögere nicht, uns über das folgende Kontaktformular anzuschreiben. Wir freuen uns auf deine Anfrage!"
+    section: contact
+    name: "Name*"
+    name-validation: "Gib bitte deinen vollen Namen ein."
+    email: "Email*"
+    email-validation: "Gib bitte deine Mailadresse an."
+    message: "Nachricht*"
+    message-validation: "Gib bitte eine Nachricht ein."
+    subject: "Kontaktformular-Anfrage"
+    submit: "Nachricht senden"
 
   footer:
     legal: "Privacy Policy"

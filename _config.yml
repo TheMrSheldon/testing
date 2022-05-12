@@ -21,7 +21,7 @@ baseurl: "/testing" # the subpath of your site, e.g. /blog
 #baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : Reiseführer Mathematik
-email      : tobiasbrockmeyer@outlook.de #this is also the email contact forms will go to
+email      : reisefuehrermathematik@gmail.com #this is also the email contact forms will go to
 description: "Der Reiseführer Mathematik ist ein Lehrkonzept und Lehrmaterial für den Mathematik-Unterricht."
 author     : Reiseführer Mathematik
 # logo:     #optional, defaults to site title

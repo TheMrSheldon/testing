@@ -48,9 +48,22 @@
           <p class="text-muted">{{ material.text | markdownify }}</p>
         </div>
         {% endif %}
+        {% if material.list %}{% for phase in material.list %}
+        <div class="col-md-4">
+          <div class="card text-white bg-info text-center">
+            <div class="card-body">
+              <span class="fa-stack fa-4x">
+                <i class="{{ phase.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 class="service-heading">{{ phase.title }}</h4>
+              {% if phase.desc %}<div>{{ phase.text | markdownify }}</div>{% endif %}
+            </div>
+          </div>
+        </div>
+	  {% endfor %}{% endif %}
         {% for content in material.contents %}
         <div class="col-md-6">
-          <div class="card">
+          <div class="card" style="margin-bottom: 20px">
             <img class="card-img-top" src="{{ content.image }}" />
             <div class="card-body">
               <p class="service-heading">{{ content.text | markdownify }}</p>
