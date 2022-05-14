@@ -165,7 +165,7 @@ de: &DEFAULT_DE
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://github.com/Reisefuhrer-Mathematik/Reisefuehrer-Mathematik
+      - url: https://github.com/reisefuehrer-mathematik/Reisefuehrer-Mathematik
         icon: "fab fa-github"
 #      - url: https://twitter.com
 #        icon: "fab fa-twitter"
